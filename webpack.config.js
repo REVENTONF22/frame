@@ -23,11 +23,10 @@ module.exports = function (env) {
 					use: {
 						loader: 'babel-loader',
 						options: {
-							presets: ['babel-preset-stage-3']
+							presets: ['babel-preset-stage-0', 'react', 'es2015']
 						}
 					},
-					include: path.resolve(__dirname, 'src'),
-					exclude: path.resolve(__dirname, 'node_modules')
+					include: path.resolve(__dirname, 'src')
 				},
 				{
 					test: /\.css$/i,

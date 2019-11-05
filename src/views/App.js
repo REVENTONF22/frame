@@ -1,9 +1,6 @@
 ﻿import React, { Component } from 'react';
 
-export default App extends Component {
-	constructor () {
-		super();
-	}
+export default class App extends Component {
 	render () {
 		return (
 			<div>
