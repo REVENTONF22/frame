@@ -12,7 +12,7 @@ module.exports = function (env) {
 		devServer: {
 			contentBase: path.resolve(__dirname, 'dist'),
 			host: 'localhost',
-			port: 3050,
+			port: 3000,
 			inline: true,
 			open: true
 		},
@@ -23,7 +23,7 @@ module.exports = function (env) {
 					use: {
 						loader: 'babel-loader',
 						options: {
-							presets: ['babel-preset-stage-3']
+							presets: ['babel-preset-stage-3', 'react']
 						}
 					},
 					include: path.resolve(__dirname, 'src'),

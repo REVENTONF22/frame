@@ -1,13 +1,13 @@
 ﻿import React, { Component } from 'react';
+import logo from 'assets/logo.jpg';
+import 'styles/app.css';
 
-export default App extends Component {
-	constructor () {
-		super();
-	}
+export default class App extends Component {
 	render () {
 		return (
 			<div>
-				<h1>Hello React!</h1>
+				<img className="logo" src={ logo } />
+				<div className="title">Hello React!</div>
 			</div>
 		)
 	}
