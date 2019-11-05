@@ -26,8 +26,7 @@ module.exports = function (env) {
 							presets: ['babel-preset-stage-3', 'react']
 						}
 					},
-					include: path.resolve(__dirname, 'src'),
-					exclude: path.resolve(__dirname, 'node_modules')
+					include: path.resolve(__dirname, 'src')
 				},
 				{
 					test: /\.css$/i,
