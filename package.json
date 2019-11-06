@@ -42,8 +42,9 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
-  "browserslists": [
-    "last 5 version",
+  "browserslist": [
+    "last 10 versions",
+    "not ie <= 8",
     "> 1%"
   ]
 }
