@@ -1,0 +1,1 @@
+﻿export let CHANGE_INPUT_VAL = 'changeInputVal';

@@ -8,20 +8,13 @@
 .title {
 	font-size: 36px;
 	color: #333333;
-	margin: 10px auto;
-	display: inline-block;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
+	text-align: center;
 }
 
-
-.title::after {
-	content: "";
-	width: 100%;
-	height: 2px;
-	background: #ff4400;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
+input {
+	display: block;
+	width: 200px;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 10px auto;
 }

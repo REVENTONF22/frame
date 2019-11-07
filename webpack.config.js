@@ -52,6 +52,7 @@ module.exports = function (env) {
 			extensions: ['.js', '.jsx', '.json', '.css'],
 			alias: {
 				views: path.resolve(__dirname, 'src/views'),
+				store: path.resolve(__dirname, 'src/store'),
 				assets: path.resolve(__dirname, 'src/assets'),
 				styles: path.resolve(__dirname, 'src/styles'),
 				components: path.resolve(__dirname, 'src/components')
